@@ -124,6 +124,23 @@ public class UserBOImp implements UserBO {
 		else
 			return 0;
 	}
+	
+	@Override
+	public User getUserFromName(String username) {
+		User objUser = uDao.getUserForUserName(username);
+		if (objUser != null)
+			return objUser;
+		else
+			return null;
+	}
+	@Override
+	public User getUserFromId(int userId) {
+		User objUser = uDao.getUser(userId);
+		if (objUser != null)
+			return objUser;
+		else
+			return null;
+	}
 
 	/* (non-Javadoc)
 	 * @see uoc.edu.svrKpax.bussines.UserBO#initUserELGG(java.lang.String, java.lang.String)

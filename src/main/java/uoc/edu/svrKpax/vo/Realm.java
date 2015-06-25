@@ -53,9 +53,4 @@ public class Realm implements Serializable {
 		this.alias = alias;
 	}
 
-
-
-	
-
-
 }

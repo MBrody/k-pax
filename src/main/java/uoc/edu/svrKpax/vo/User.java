@@ -100,5 +100,4 @@ public class User implements Serializable {
 	public void setGamesInstance(Set<GameInstance> gamesInstance) {
 		this.gamesInstance = gamesInstance;
 	}
-
 }

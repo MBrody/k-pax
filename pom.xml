@@ -200,7 +200,7 @@
 				<configFilePath>${basedir}/src/main/resources/config/config.properties</configFilePath>
 
 				<!--deploy parameters -->
-				<jbossdeployhome>\Users\juanfrasr\servidor\jboss-4.2.3-1.GA\server\default\deploy</jbossdeployhome>
+				<jbossdeployhome>E:\Archivos de programa\jboss-4.2.3.GA\server\default\deploy</jbossdeployhome>
 			</properties>
 			<build>
 				<plugins>

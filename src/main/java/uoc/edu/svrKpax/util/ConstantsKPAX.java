@@ -4,10 +4,13 @@ package uoc.edu.svrKpax.util;
 public class ConstantsKPAX {
 
 	public final static String UOC = "UOC";
-	public final static String URL_ELGG = "http://kpax.uoc.es/elgg/";  // URL TO ELGG 
-	//public final static String URL_ELGG = "http://localhost/elggNew/";
-	public final static String ELGG_API_KEY ="4fdd1b17d3fc9112e5143467cbcb78fd888e6ff8";  // elgg api key generate to ellg plataform API Admin plugin
-	//public final static String ELGG_API_KEY = "870148ed6b226ba4c59816dfabd480726be9a572";
+	//public final static String URL_ELGG = "http://kpax.uoc.es/elgg/";  // URL TO ELGG 
+	public final static String URL_ELGG = "http://localhost/elgg-1.8.14/";
+
+	//public final static String ELGG_API_KEY ="da763d9d78e695094bb8cd9363e002bf584ba2e2";
+	public final static String ELGG_API_KEY ="fe940300d892473582f99e9967c17f029feed1af";
+	//public final static String ELGG_API_KEY ="d77e63dd3d10a94f6cf826ba66e9073e2da1168a";
+	
 	public static final String RSA_CERTIFICATE = "-----BEGIN CERTIFICATE-----\n"   // Example RSA_CERTIFICATE
 			+ "MIIBpjCCAQ+gAwIBAgIBATANBgkqhkiG9w0BAQUFADAZMRcwFQYDVQQDDA5UZXN0\n"
 			+ "IFByaW5jaXBhbDAeFw03MDAxMDEwODAwMDBaFw0zODEyMzEwODAwMDBaMBkxFzAV\n"

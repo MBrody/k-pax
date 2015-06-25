@@ -8,6 +8,6 @@ public interface UserDao {
 	public void saveUser(User user);
 	public List<User> getAllUser(User user);
 	public User getUser(int userId);
-	public User getUserForUserName(String userName);
+	public User getUserForUserName(String username);
 	public User getUserForUid(String uid);
 }

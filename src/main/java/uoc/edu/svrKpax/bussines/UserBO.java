@@ -2,6 +2,8 @@ package uoc.edu.svrKpax.bussines;
 
 import javax.ws.rs.core.Response;
 
+import uoc.edu.svrKpax.vo.User;
+
 
 public interface UserBO {
 	
@@ -13,6 +15,8 @@ public interface UserBO {
 	
 	public Response initUser(String username,String alias);
 	public int validateUser(String uid) ;
+	public User getUserFromName(String username);
+	public User getUserFromId(int userId);
 
 }
 

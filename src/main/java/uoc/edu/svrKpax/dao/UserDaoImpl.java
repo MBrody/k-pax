@@ -28,9 +28,10 @@ public class UserDaoImpl extends HibernateDaoSupport implements UserDao {
 	}
 
 	@Override
-	public User getUserForUserName(String userName) {
+	public User getUserForUserName(String username) {
 		DetachedCriteria criteria = DetachedCriteria.forClass(User.class);
-		criteria.add(Restrictions.eq("login", userName));
+		criteria.add(Restrictions.like("login", username));
+		//criteria.add(Restrictions.eq("login", username));
 		return (User) DataAccessUtils.uniqueResult(getHibernateTemplate()
 				.findByCriteria(criteria));
 	}
